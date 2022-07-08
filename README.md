@@ -33,9 +33,12 @@ Data from dynamic key for Ec2 Data in Json Format
 5. Enter your key with path (leave blank or type 'all' for all data): dynamic/instance-identity/document/availabilityZone
 
  AWS EC2 Region in String format
+
+
 ------------------------
 
-6. Enter your key with path (leave blank or type 'all' for all data): InValid Key
+6. Enter your key with path (leave blank or type 'all' for all data): InValid Key 
+Key Not found
 
- Key Not Found
+ 
 ------------------------
