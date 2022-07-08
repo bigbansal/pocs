@@ -1,4 +1,4 @@
-# Ec2MetaDataRetrival.py
+# Ec2MetaDataRetrival.py - I have referred and improved - https://gist.github.com/iMilnb/ab9939e83168d6df6457e50b0ca73c78 code
 It Provides a Way to extract Key or Full MetaData, Dynamic, User-Data for EC2 Machines, in Pretty Json or String format.
 
 >> python Ec2MetaDataRetrival.py
