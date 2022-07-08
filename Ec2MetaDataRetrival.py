@@ -55,4 +55,18 @@ if __name__ == '__main__':
                 for i in range(keyLength):
                     if keyLength == 1 or i == (keyLength-1):
                         valueToReturn = allData.get(value[i])
-   
+                    else:
+                        allData = allData.get(value[i])
+                if(type(valueToReturn) is dict):
+                    print(json.dumps(valueToReturn, indent = 1))
+                else:
+                    if valueToReturn == None:
+                        print('Key Not Found')
+                    else:
+                        print(valueToReturn)
+            except:
+                print('Invalid key path', val)
+    except EOFError as e:
+        print(json.dumps(load(), indent = 1))
+
+        
